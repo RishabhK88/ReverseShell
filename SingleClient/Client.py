@@ -3,8 +3,7 @@ import os
 import subprocess
 
 s = socket.socket()
-#host = "206.189.181.189"
-host = "192.168.0.14"
+host = "Add the IP Address of the client"
 port = 9999
 s.connect((host, port))
 
